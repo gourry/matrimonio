@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="it">
+<head>
+    <title>Marco e Francesca - 2 luglio 2016</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/marco.css" type="text/css" media="all" />
+    <link rel="icon" href="favicon.ico" />
+    <!--slider-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/viaggio.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="wrap">
+            <div class="header-bot">
+                    <div class="logo title">
+                        <a href="index.html"><em>M</em>arco e <em>F</em>rancesca</a>
+                    </div>
+                    <div class="header-right">
+                        <div class="contact-info">
+                            <ul>
+                                <li>Sabato 02 luglio 2016</li>
+                            </ul>
+                        </div>
+                        <div class="menu">
+                             <ul class="nav">
+                                <li><a href="index.html" title="Home">Home</a></li>
+                                <li><a href="abbazia.html">L'Abbazia</a></li>
+                                <li><a href="ricevimento.html">Il ricevimento</a></li>
+                                <li><a href="alberghi.html">Dove pernottare</a></li>
+                                <li class="active"><a href="viaggio.html">Il viaggio di nozze</a></li>
+                                <li><a href="contatti.html">Contatti</a></li>
+                                <div class="clear"></div>
+                            </ul>
+                         </div>
+                     </div>
+                    <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+	<div class="main">
+		<div class="wrap">
+			<div class="heading">
+				<h3><i class="material-icons">&#xE539;</i> Stati uniti - Canada - Grenada</h3>
+			<div class="contact">
+				<div class="col span_2_of_3">
+                  <iframe src="https://www.google.com/maps/d/embed?mid=zxeZQvDemXfY.k1lgFxX-COFE" width="100%" height="400px"></iframe>
+                </div>
+                <div class="col span_1_of_3">
+				     	<p>Potete cliccare sulla mappa per ulteriori informazioni su ogni tappa del nostro viaggio di nozze</p>
+                </div>
+				<div class="clear"></div>
+			  </div>
+				<h3><i class="material-icons">&#xE8F6;</i> Lista nozze</h3>
+				<p>Sappiamo benissimo che avreste voluto passare ore a scegliere tra vasi di cristallo, meravigliose cornici d'argento, pregevoli scacchiere di alabastro o innovativi elettrodomestici...ma purtroppo per voi li abbiamo già tutti. Quindi se volete contribuire al nostro viaggione di nozze ve ne saremo grati. </p>
+                    <p>Se siete abili con il computer trovate qui sotto gli estremi per il bonifico e lo spazio per lasciare un messaggio, alternativamente la tradizionale ed immortale busta sarà graditissima.
+                    <div class="col span_1_of_3">
+                        <div class="contact-form bonifico">
+                            <div>
+                                <span><label>IBAN</label></span>
+                                <span class="value">ITxx Q030 5801 6041 0057 ciao 835</span>
+                            </div>
+                            <div>
+                                <span><label>Beneficiari</label></span>
+                                <span class="value">Bertoli Marco Vinante Francesca</span>
+                            </div>
+                            <div>
+                                <span><label>Banca</label></span>
+                                <span class="value">CheBanca! - Viale Luigi Bodio, 37 - 20158 MILANO</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col span_2_of_3">
+				  <div class="contact-form bonifico">
+					    <form method="post" action="#" id="messaggio" onclick="return false;">
+					    	<div>
+						    	<span><label><i class="material-icons">&#xE7FD;</i> Mittente</label></span>
+						    	<span><input name="userName" type="text" class="textbox" placeholder="Il tuo nome"></span>
+						    </div>
+						    <div class="marco_2_cols">
+                                <div class="marco_col_1">
+                                    <span><label><i class="material-icons">&#xE0E1;</i> E-Mail</label></span>
+                                    <span><input name="userEmail" type="text" class="textbox" placeholder="La tua email"></span>
+                                </div>
+                                <div class="marco_col_2">
+                                    <span><label><i class="material-icons">&#xE0CD;</i> Telefono</label></span>
+                                    <span><input name="userPhone" type="text" class="textbox" placeholder="Il tuo numero di telefono"></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+						    <div class="marco_2_cols">
+                                <div class="marco_col_1">
+                                    <span><label><i class="material-icons">&#xE84F;</i> CRO/ID bonifico</label></span>
+                                    <span><input name="userId" type="text" class="textbox" placeholder="Identificativo del bonifico"></span>
+                                </div>
+                                <div class="marco_col_2">
+                                    <span><label><i class="material-icons">&#xE227;</i> Importo regalo</label></span>
+                                    <span><input name="userMoney" type="text" class="textbox" placeholder="Importo del bonifico"></span>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div>
+						    	<span><label><i class="material-icons">&#xE0C9;</i> Messaggio di auguri</label></span>
+						    	<span><textarea name="userMsg" placeholder="Il tuo messaggio"></textarea></span>
+						    </div>
+						   <div>
+                                <span id="errors"></span>
+                                <span id="messages"></span>
+						   		<span><input type="submit" value="Invia" id="invia"></span>
+						  </div>
+					    </form>
+				  </div>
+                    </div>
+                </p>
+			</div>
+    </div>
+    
+</body>
+<!--
+Author: Marco Bertoli
+
+This page is a derivative work from W3layouts ( http://w3layouts.com ) released under "Creative Commons Attribution 3.0 Unported" license ( http://creativecommons.org/licenses/by/3.0/ )
+-->
+</html>

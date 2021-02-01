@@ -1,0 +1,105 @@
+.title a {
+    color: #000;
+	margin-bottom:0.5em;
+	font-size:4em;
+	line-height: 1.2;
+	font-family: 'Alex Brush', cursive;
+	font-weight : normal;
+	margin-top: 0px;
+	letter-spacing: -1px;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 480px) {
+    .title a {
+        font-size:2.5em;
+    }
+}
+
+.title a em {
+    color: #F6107E;
+    font-style: normal;
+}
+
+.grid-img i {
+    font-size: 100px;
+    color: #F6107E;
+}
+
+.content-top p em {
+    color: black;
+    font-size: 16px;
+}
+
+h4 {
+	font-family: 'Francois One', sans-serif;
+    font-size: 1.1em;
+    color: #F6107E;
+}
+
+.copy {
+    opacity: 0.5;
+}
+
+.copy #copyButton {
+    cursor: pointer;
+}
+
+.bonifico label {
+    color: #555;
+    font-style: italic;
+}
+
+.bonifico span.value {
+    color: black;
+    font-size: 1.1em;
+}
+
+.bonifico .marco_2_cols {
+    width: 98%;
+}
+
+.bonifico .marco_2_cols > div {
+    width: 48%;
+}
+
+.bonifico .marco_2_cols .marco_col_1 {
+    float: left;
+}
+
+.bonifico .marco_2_cols .marco_col_2 {
+    float: right;
+}
+
+.bonifico i {
+    font-size: 13px;
+}
+
+.bonifico .clear {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+.bonifico input[type="text"].error,
+.bonifico textarea.error {
+	-webkit-box-shadow: 0 0 5px #F00;
+	-moz-box-shadow: 0 0 5px #F00;
+	-o-box-shadow: 0 0 5px #F00;
+	box-shadow: 0 0 5px #F00;
+}
+
+.bonifico span#errors {
+    color: #F00;
+    font-size: 1.1em;
+}
+
+.bonifico span#messages {
+    color: #32cd32;
+    font-size: 1.1em;
+}
+.bonifico input[type="submit"]:disabled {
+    background: #ccc;
+    border: #ccc;
+    cursor: default;
+}
